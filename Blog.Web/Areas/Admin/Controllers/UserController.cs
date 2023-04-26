@@ -1,17 +1,12 @@
 ﻿using AutoMapper;
-using Blog.Data.UnitOfWorks;
 using Blog.Entity.DTOs.Users;
 using Blog.Entity.Entities;
-using Blog.Entity.Enums;
 using Blog.Service.Extensions;
-using Blog.Service.Helpers.Images;
 using Blog.Service.Services.Abstractions;
 using Blog.Web.ResultMessages;
 using FluentValidation;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NToastNotify;
-using System.Security.Claims;
 
 namespace Blog.Web.Areas.Admin.Controllers
 {
@@ -44,10 +39,7 @@ namespace Blog.Web.Areas.Admin.Controllers
         public async Task<IActionResult> Add()
         {
             var roles = await userService.GetAllRolesAsync();
-
             return View(new UserAddDto { Roles =roles  });
-
-
         }
         [HttpPost]
         public async Task<IActionResult> Add(UserAddDto userAddDto)
@@ -55,7 +47,6 @@ namespace Blog.Web.Areas.Admin.Controllers
             var map = mapper.Map<AppUser>(userAddDto);
             var validation = await validator.ValidateAsync(map);
             var roles = await userService.GetAllRolesAsync();
-
 
 
             if (ModelState.IsValid)

@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\js\\categoryAdd.js"
     },
     {
+      "Id": "C:\\Users\\muhammer TURK\\Desktop\\MyBlog\\Blog.Web\\wwwroot\\js\\dashboardIndex.js",
+      "PackagePath": "staticwebassets\\js\\dashboardIndex.js"
+    },
+    {
       "Id": "C:\\Users\\muhammer TURK\\Desktop\\MyBlog\\Blog.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

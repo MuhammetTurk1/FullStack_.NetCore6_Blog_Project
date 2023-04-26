@@ -80,7 +80,7 @@ namespace Blog.Data.Mapping
             //    PhoneNumberConfirmed = false,
             //    EmailConfirmed = false,
             //    SecurityStamp = Guid.NewGuid().ToString(),
-            //    ImageId = Guid.Parse("D491F90B-90AC-468A-A076-0ED56AC15E6E"),
+            //    ImageId = Guid.Parse("8E6B041C-EDD8-40B5-BDDE-147C079ECBF8"),
 
             //};
             //superadmin.PasswordHash = CreatePasswordHash(admin,"123456");

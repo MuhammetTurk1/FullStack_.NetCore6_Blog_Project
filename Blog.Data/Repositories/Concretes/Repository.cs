@@ -63,7 +63,9 @@ namespace Blog.Data.Repositories.Concretes
         }
         public async Task<int> CountAsync(Expression<Func<T, bool>> predicate = null)
         {
+            if(predicate is not null)
             return await Table.CountAsync(predicate);
+            return await Table.CountAsync();
         }
 
         public async Task AddAsync(T entity)

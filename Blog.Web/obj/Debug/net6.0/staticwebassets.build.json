@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZXbwSo5r8F9L/AbyquggSpzo7rgI3xVPADJLKEQS40o=",
+  "Hash": "XnEcqH5p+NOvmczDHYOSLOZTq6foL86VpNym07xe4tg=",
   "Source": "Blog.Web",
   "BasePath": "_content/Blog.Web",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\categoryAdd.js"
+    },
+    {
+      "Identity": "C:\\Users\\muhammer TURK\\Desktop\\MyBlog\\Blog.Web\\wwwroot\\js\\dashboardIndex.js",
+      "SourceId": "Blog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\muhammer TURK\\Desktop\\MyBlog\\Blog.Web\\wwwroot\\",
+      "BasePath": "_content/Blog.Web",
+      "RelativePath": "js/dashboardIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\dashboardIndex.js"
     },
     {
       "Identity": "C:\\Users\\muhammer TURK\\Desktop\\MyBlog\\Blog.Web\\wwwroot\\js\\site.js",
